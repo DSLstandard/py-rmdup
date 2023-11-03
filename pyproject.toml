@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rmdup"
+version = "0.1.0"
+description = ""
+authors = ["dosh <what>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+natsort = "^8.4.0"
+
+[tool.poetry.scripts]
+rmdup = "rmdup.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
