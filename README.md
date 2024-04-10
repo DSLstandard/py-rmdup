@@ -1,5 +1,9 @@
 # rmdup
+Archive of a program I made to remove duplicate files.
 
+I often do `rmdup ~/Downloads` to remove re-downloaded PDF files.
+
+# Help
 ```
 usage: rmdup [-h] [-n] [-r] path
 
